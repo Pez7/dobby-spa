@@ -1,0 +1,39 @@
+@import 'materialize-src/sass/materialize.scss';
+@import '_bases.scss';
+@import '_variables.scss';
+@import '_reset.scss';
+
+nav{
+	background-color:#2F1F1F;
+
+}
+#lista-nav{
+	li{
+		a{
+			font-size:12px;
+		}
+	}
+}
+#lista-nav{
+	li{
+		a:hover{
+			color:#FADCA6;
+		}
+	}
+}
+#lista-nav li:last-child{
+	margin-right: 539px;
+}
+.slider .indicators{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px 0 58px 0;
+    z-index: 1000;
+}
+.slider .indicators .indicator-item.active{
+	background-color:transparent;
+	border:1px solid #fff;
+}
