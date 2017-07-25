@@ -6838,23 +6838,17 @@ nav {
     border-radius: 5%;
     border-radius: 5%;
     width: 380px; }
-  #segunda div div h5 {
+  #segunda div div div h5 {
     text-align: center;
     color: #DB6B5D;
     text-transform: uppercase;
     padding-bottom: 12px; }
-  #segunda div div p {
+  #segunda div div div p {
     font-size: 13px;
-    padding-right: 102px; }
-  #segunda div div p {
-    font-size: 13px; }
-  #segunda div div p {
-    font-size: 13px; }
-  #segunda div div p {
-    font-size: 13px; }
-  #segunda div div p {
-    font-size: 13px; }
-  #segunda div div p {
+    padding-right: 102px;
+    padding-bottom: 10px; }
+  #segunda div div div ul li {
+    padding-top: 10px;
     font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */

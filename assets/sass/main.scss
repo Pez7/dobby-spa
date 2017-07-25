@@ -95,21 +95,25 @@ nav{
 			}
 		}
 		div{
-			h5{
-    			text-align: center;
-    			color: #DB6B5D;
-    			text-transform: uppercase;
-    			padding-bottom: 12px;
+			div{
+				h5{
+	    			text-align: center;
+	    			color: #DB6B5D;
+	    			text-transform: uppercase;
+	    			padding-bottom: 12px;
+				}
+				p{
+				font-size: 13px;
+	    		padding-right: 102px;
+	    		padding-bottom:10px;
+				}
+				ul{
+					li{
+					padding-top:10px;
+					font-size: 13px;
+					}
+				}
 			}
-			p{
-			font-size: 13px;
-    		padding-right: 102px;
-			}
-			p{font-size: 13px;}
-			p{font-size: 13px;}
-			p{font-size: 13px;}
-			p{font-size: 13px;}
-			p{font-size: 13px;}
 		}
 	}
 }
