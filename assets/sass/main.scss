@@ -117,3 +117,58 @@ nav{
 		}
 	}
 }
+#tercera{
+	background-color:#4A3A3A;
+}
+#card1{
+	font-family:$roboto;
+	h3{
+    	color: #FAD483;
+    	text-transform: uppercase;
+    	text-align: right;
+    	font-size: 25px;
+    	padding: 36px 0 0;
+	}
+	hr{
+    	margin-bottom: 30px;
+    	margin-left: 340px;
+	}
+	div{
+		p{
+			color: #FAD483;
+			font-size:13px;
+			text-align:right;
+			img{
+				float:left;
+				border-radius:5%;
+				margin-left: 122px;
+			}
+		}
+	}
+}
+#card2{
+	font-family:$roboto;
+	h3{
+    	color: #FAD483;
+    	text-transform: uppercase;
+    	text-align: left;
+    	font-size: 25px;
+    	padding: 36px 0 0;
+	}
+	hr{
+    	margin-bottom: 30px;
+    	margin-right: 340px;
+	}
+	div{
+		p{
+			color: #FAD483;
+			font-size:13px;
+			text-align:left;
+			img{
+				float:right;
+				border-radius:5%;
+				margin-right: 118px;
+			}
+		}
+	}
+}
