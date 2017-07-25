@@ -6792,7 +6792,9 @@ nav {
   margin-right: 539px; }
 
 #primera {
-  background-color: #E9E0B7; }
+  background-color: #E9E0B7;
+  padding-bottom: 15px;
+  border-bottom: 2px solid lightgray; }
 
 .slider ul li img {
   border-bottom: 1px solid black; }
@@ -6828,5 +6830,31 @@ nav {
     background-color: #DBBE86;
     color: black;
     text-transform: uppercase; }
+
+#segunda {
+  background-color: #F4F4F4;
+  padding-top: 45px; }
+  #segunda div div img {
+    border-radius: 5%;
+    border-radius: 5%;
+    width: 380px; }
+  #segunda div div h5 {
+    text-align: center;
+    color: #DB6B5D;
+    text-transform: uppercase;
+    padding-bottom: 12px; }
+  #segunda div div p {
+    font-size: 13px;
+    padding-right: 102px; }
+  #segunda div div p {
+    font-size: 13px; }
+  #segunda div div p {
+    font-size: 13px; }
+  #segunda div div p {
+    font-size: 13px; }
+  #segunda div div p {
+    font-size: 13px; }
+  #segunda div div p {
+    font-size: 13px; }
 
 /*# sourceMappingURL=main.css.map */
