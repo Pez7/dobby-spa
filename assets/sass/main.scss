@@ -3,6 +3,9 @@
 @import '_variables.scss';
 @import '_reset.scss';
 
+body{
+	font-family:$roboto;
+}
 nav{
 	background-color:#2F1F1F;
 
@@ -24,6 +27,18 @@ nav{
 #lista-nav li:last-child{
 	margin-right: 539px;
 }
+#primera{
+	background-color:#E9E0B7;
+}
+.slider{
+	ul{
+		li{
+			img{
+				border-bottom:1px solid black;
+			}
+		}
+	}
+}
 .slider .indicators{
     position: absolute;
     text-align: center;
@@ -36,4 +51,33 @@ nav{
 .slider .indicators .indicator-item.active{
 	background-color:transparent;
 	border:1px solid #fff;
+}
+#round-img{
+	margin-top: -121px;
+    position: relative;
+    z-index: 100;
+	div{
+		div{
+			img{
+				border:10px solid #DBBE86;
+			}
+		}
+		div{
+			h4{
+				font-size:17px;
+				text-transform: uppercase;
+				color:#343434;
+			}
+			p{
+    			font-size: 14px;
+    			padding: 0px 20px;
+			}
+			a{
+				font-size:11px;
+				background-color:#DBBE86;
+				color:black;
+				text-transform: uppercase;
+			}
+		}
+	}
 }
