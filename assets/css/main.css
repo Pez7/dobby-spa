@@ -6890,8 +6890,25 @@ nav {
     font-size: 13px;
     text-align: left; }
     #card2 div p img {
+      background-color: #BFB68D;
       float: right;
       border-radius: 5%;
       margin-right: 118px; }
+
+footer {
+  background-color: #2F1F1F;
+  color: #FAD483; }
+
+#media-img div {
+  display: flex; }
+  #media-img div h5 {
+    text-align: left;
+    text-transform: uppercase; }
+  #media-img div div {
+    border-radius: 100%;
+    background-color: #BFB68D;
+    border: 6px solid #DF8560;
+    width: 122px;
+    height: 115px; }
 
 /*# sourceMappingURL=main.css.map */
